@@ -98,6 +98,7 @@ public class HideAndSeek : MonoBehaviour {
 
             locations.Add(location);
 
+            // Rotate objects towards user
             Quaternion rotation = new Quaternion();
             Vector3 lookPosition = this.transform.position;
             lookPosition.y = -1.5f;
